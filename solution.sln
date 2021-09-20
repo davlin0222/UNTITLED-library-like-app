@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{9589BBF7-0539-40F5-A5A5-760C1A5DDDFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{D16CF475-96E9-4038-A527-6F2ED354806F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{9589BBF7-0539-40F5-A5A5-760C1A5DDDFF}.Release|x64.Build.0 = Release|Any CPU
 		{9589BBF7-0539-40F5-A5A5-760C1A5DDDFF}.Release|x86.ActiveCfg = Release|Any CPU
 		{9589BBF7-0539-40F5-A5A5-760C1A5DDDFF}.Release|x86.Build.0 = Release|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Debug|x64.Build.0 = Debug|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Debug|x86.Build.0 = Debug|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Release|x64.ActiveCfg = Release|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Release|x64.Build.0 = Release|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Release|x86.ActiveCfg = Release|Any CPU
+		{D16CF475-96E9-4038-A527-6F2ED354806F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
