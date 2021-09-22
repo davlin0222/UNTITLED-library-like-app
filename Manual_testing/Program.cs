@@ -25,6 +25,9 @@ namespace Manual_testing
             book.Title = "The Ranger's Apprentice 2";
             Console.WriteLine(book.Title.ToString());
             Console.WriteLine(book.Pages.ToString());
+
+            Sound_track hello_there = new Sound_track("Hello there", 120);
+            Console.WriteLine(hello_there.ToString());
         }
     }
 }
