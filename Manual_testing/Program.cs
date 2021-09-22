@@ -12,13 +12,15 @@ namespace Manual_testing
         }
 
         private static void test_storage() {
-            Book book = new Book("The Ranger's Apprentice", 200);
-            Sound_track hello_there = new Sound_track("Hello there", 120);
+            Book book = new Book("The Ranger's Apprentice", 256);
+            Sound_track hello_there = new Sound_track("Hello there", 2);
+            Movie inception = new Movie("Inception", (2 * 60) + (28), "HD");
 
             Storage media = new Storage();
 
             media.storage_add(book);
             media.storage_add(hello_there);
+            media.storage_add(inception);
 
             Console.WriteLine(media.ToString());
         }

@@ -14,5 +14,5 @@ namespace Logic
         public override string ToString() {
             return string.Join("\n", this._media_list);;
         }
-}
+    }
 }
