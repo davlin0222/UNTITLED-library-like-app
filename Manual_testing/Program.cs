@@ -1,4 +1,5 @@
 ﻿using System;
+using Logic;
 
 namespace Manual_testing
 {
@@ -6,7 +7,11 @@ namespace Manual_testing
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Storage media = new Storage();
+
+            media.storage_add("Item 1");
+
+            Console.WriteLine(media.ToString());
         }
     }
 }
