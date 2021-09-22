@@ -20,10 +20,11 @@ namespace Manual_testing
         }
 
         private static void test_media() {
-            Media book = new Media("The Ranger's Apprentice");
+            Book book = new Book("The Ranger's Apprentice", 200);
             Console.WriteLine(book.Title.ToString());
             book.Title = "The Ranger's Apprentice 2";
             Console.WriteLine(book.Title.ToString());
+            Console.WriteLine(book.Pages.ToString());
         }
     }
 }
