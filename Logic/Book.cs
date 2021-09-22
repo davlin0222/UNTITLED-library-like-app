@@ -9,5 +9,9 @@ namespace Logic
         public Book(string title, int pages) : base(title) {
             this.Pages = pages;
         }
+        
+        public override string ToString() {
+            return $"{Title}\tSound track\t{Pages} pages";
+        }
     }
 }

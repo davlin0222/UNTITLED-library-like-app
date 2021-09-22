@@ -5,14 +5,14 @@ namespace Logic
 {
     public class Storage
     {
-        List<string> media = new List<string>();
+        private List<Media> _media_list = new List<Media>();
 
-        public void storage_add(string value) {
-            media.Add(value);
+        public void storage_add(Media media) {
+            this._media_list.Add(media);
         }
 
         public override string ToString() {
-            return string.Join(",", media);;
+            return string.Join("\n", this._media_list);;
         }
 }
 }
